@@ -16,10 +16,28 @@ header{
     background-color: black;
     z-index: 1;
 }
+.header-view{
+    display: flex;
+    color: white;
+    right: 30px;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    gap: 5px;
+
+}
+.speakers {
+    display: flex;
+    padding: 5px;
+    background-color: gray;
+    border-radius: 5px;
+}
 main{
-    padding-top: 80px;
+    padding-top: 100px;
     height: calc(100vh - 80px);
     overflow-y: auto;
+    background-color: black;
+    border: 2px dashed white;
 }
 footer{
     height: 80px;
