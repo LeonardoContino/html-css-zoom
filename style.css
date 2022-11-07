@@ -2,4 +2,29 @@
     margin: 0;
     padding: 0px;
     box-sizing: border-box;
+    
+    
+}
+body{
+    height: 100vh;
+
+}
+header{
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    z-index: 1;
+}
+main{
+    padding-top: 80px;
+    height: calc(100vh - 80px);
+    overflow-y: auto;
+}
+footer{
+    height: 80px;
+    
+    
+    background-color: black;
+    
 }
