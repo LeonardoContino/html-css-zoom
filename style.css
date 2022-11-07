@@ -50,9 +50,27 @@ main{
     
 }
 .cards{
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 10px;
-    
     border: 2px dashed white;
+    
+    
+
+    
+    
+}
+.cards img{
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    
+    height: 200px;
+    width: 300px;
+    
+    
+    
     
 }
 footer{
